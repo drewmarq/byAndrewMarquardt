@@ -1,0 +1,120 @@
+body {
+  margin:8em;
+  background: rgb(255,255,255);
+  background: linear-gradient(77deg, rgba(255,255,255,1) 55%, rgba(255,192,203,1) 100%);
+
+}
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 2em;
+}
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: .9em;
+}
+h3 {
+  font-family: 'Inter', sans-serif;
+  font-size: 2em;
+  float: left;
+  border-top: 1px;
+  border-bottom: 1px;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  font-size: 1em;
+}
+
+#puff {
+  width: 3em;
+  height: 3em;
+  margin-bottom: .25em;
+  margin-left: .25em;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+#stereoscopicImage {
+  max-width: 20.73em;
+  border-radius: 3%;
+  padding: 3px;
+  align-items: center;
+}
+
+#header-stripe {
+  margin-bottom: 10em;
+}
+
+#quotes-stripe {
+  margin-bottom: 7em;
+}
+
+#bio-stripe {
+  margin-bottom: 5em;
+  line-height: 2em;
+  padding-right: 3em;
+}
+
+#websiteLinks {
+  margin-bottom: 5em;
+}
+#introduction {
+  color: Lightpink;
+}
+
+#quoteButton {
+  border: none;
+  background-color: transparent;
+  height: 100%;
+  font-size: inherit;
+  letter-spacing: .5px;
+  transition: all 0.3s;
+  outline: none;
+}
+
+#quoteButton::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: pink;
+  transition: all 0.2s ease-out;
+}
+
+#quoteButton:hover::after {
+  width: 100%;
+  transition: width .3s;
+}
+
+#emailButton {
+  border: none;
+  background-color: transparent;
+  color: pink;
+  height: 100%;
+  font-size: inherit;
+  font-weight: 700;
+  letter-spacing: .5px;
+  font-weight: 700;
+  outline: none;
+}
+
+.websiteLinkButtons {
+  padding-right: 1em;
+  border: none;
+  background-color: white;
+  color: pink;
+  height: 100%;
+  font-size: inherit;
+  font-weight: 700;
+  letter-spacing: .5px;
+  font-weight: 700;
+  outline: none;
+}
+
+#moreAboutMeLinks {
+  margin-bottom: 5em;
+}
